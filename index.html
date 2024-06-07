@@ -7,18 +7,24 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h1>Hello, world!</h1>
+    <h1>Play!</h1>
 
 
     <div class="keyboard">
-        <div class="key">A</div>
-        <div class="key">S</div>
-        <div class="key">D</div>
-        <div class="key">F</div>
-        <div class="key">F</div>
+        <div id="key_a" class="key">A</div>
+        <div id="key_s" class="key">S</div>
+        <div id="key_d" class="key">D</div>
+        <div id="key_f" class="key">F</div>
+        <div id="key_g" class="key">G</div>
     </div>
 
-    
+    <!-- Audio files for each key -->
+    <audio id="sound_a" src="/instrument-sounds/banjo_C3.mp3"></audio>
+    <audio id="sound_s" src="/instrument-sounds/banjo_D3.mp3"></audio>
+    <audio id="sound_d" src="/instrument-sounds/banjo_E3.mp3"></audio>
+    <audio id="sound_f" src="/instrument-sounds/banjo_F3.mp3"></audio>
+    <audio id="sound_g" src="/instrument-sounds/banjo_G3.mp3"></audio>
+
     <script src="js/script.js"></script>
 </body>
 </html>
