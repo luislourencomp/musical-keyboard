@@ -11,7 +11,7 @@ h1 {
 }
 .keyboard{
     display: grid;
-    grid-template-columns: repeat(5, 1fr); /* 10 colunas */
+    grid-template-columns: repeat(5, 1fr); /* 5 columns */
     grid-gap: 10px;
     padding: 10px;
     background-color: #333;
@@ -31,4 +31,10 @@ h1 {
     padding: 20px 0;
     cursor: pointer;
     user-select: none;
+}
+
+@media (max-width: 1250px) {
+    .keyboard {
+        grid-template-columns: repeat(3, 1fr); /* 3 columns in samller screens */
+    }
 }
