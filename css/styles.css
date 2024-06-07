@@ -7,5 +7,28 @@ body {
 h1 {
     color: #333;
     text-align: center;
-    margin-top: 20%;
+    margin-top: 15%;
+}
+.keyboard{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 10 colunas */
+    grid-gap: 10px;
+    padding: 10px;
+    background-color: #333;
+    border-radius: 10px;
+    min-height: 200px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+.key{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    padding: 20px 0;
+    cursor: pointer;
+    user-select: none;
 }
